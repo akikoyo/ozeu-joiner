@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ozeu Joiner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h2>Ozeu Joiner</h2>
+    <form id="form">
+      <label>token</label>
+      <textarea id="tokens"></textarea>
+
+      <label>招待リンク（形式自由: https://discord.gg/xxxxx もOK）</label>
+      <input type="text" id="invite" placeholder="discord.gg/xxxxx" />
+
+      <div class="button-container">
+        <button id="submitBtn" type="submit" class="primary">参加させる</button>
+      </div>
+    </form>
+    <div id="log"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
